@@ -1,0 +1,126 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    header {
+        height: 80vh;
+        width: 100%;
+        background-image: url("https://res.cloudinary.com/dhpm6cjag/image/upload/v1599308081/image__1_n87ihn.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    nav {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid lightgray;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    nav a {
+        text-decoration: none;
+        margin-right: 40px;
+        text-transform: capitalize;
+        font-size: 20px;
+        color: rgb(75, 58, 58);
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+    
+    .about {
+        align-items: center;
+    }
+    
+    .about_title>h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(112, 107, 107);
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .about_me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        margin-left: 50px;
+        height: 50vh;
+    }
+    
+    .about-img {
+        padding-right: 20px;
+    }
+    
+    .about-content>p {
+        line-height: 30px;
+        color: #a99c9c;
+        text-align: justify;
+        word-spacing: 2px;
+        font-size: 20px;
+    }
+    
+    .image {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+    }
+    
+    .education {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+    .schools>div>p {
+        text-transform: capitalize;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 30px;
+        font-size: large;
+    }
+    
+    .schools>div>p>span {
+        font-style: italic;
+    }
+    
+    .work-exprience>div>p {
+        text-transform: capitalize;
+        text-align: justify;
+        word-spacing: 2px;
+        line-height: 30px;
+        font-size: large;
+    }
+    
+    .work-exprience>div>p>span {
+        font-style: italic;
+    }
+    
+    .title>h2 {
+        margin-left: 40px;
+        text-decoration: underline;
+    }
+    
+    h2 {
+        text-transform: capitalize;
+        color: rgb(70, 47, 47);
+    }
+    
+    .work {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+        margin-left: 40px;
+    }
